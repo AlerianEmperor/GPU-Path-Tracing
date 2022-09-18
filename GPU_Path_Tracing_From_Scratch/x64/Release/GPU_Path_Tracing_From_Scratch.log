@@ -1,0 +1,14 @@
+﻿  Compiling CUDA source file render.cu...
+  
+  E:\4_a_a_GPU_Path_Tracing\a_GPU_Path_Tracing_Final\build\GPU_Path_Tracing_From_Scratch>"E:\Cuda\Install\Development\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IE:\Cuda\Install\Development\include -IE:\Cuda\Install\Development\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc140.pdb /FS /Zi  /MD " -o x64\Release\render.cu.obj "E:\4_a_a_GPU_Path_Tracing\a_GPU_Path_Tracing_Final\build\GPU_Path_Tracing_From_Scratch\render.cu" 
+E:/4_a_a_GPU_Path_Tracing/a_GPU_Path_Tracing_Final/build/GPU_Path_Tracing_From_Scratch/render.cu(39): warning : variable "pixelx" was declared but never referenced
+E:/4_a_a_GPU_Path_Tracing/a_GPU_Path_Tracing_Final/build/GPU_Path_Tracing_From_Scratch/render.cu(40): warning : variable "pixely" was declared but never referenced
+E:/4_a_a_GPU_Path_Tracing/a_GPU_Path_Tracing_Final/build/GPU_Path_Tracing_From_Scratch/render.cu(63): warning : variable "fullBlocksPerGrid" was declared but never referenced
+  render.cu
+e:\4_a_a_gpu_path_tracing\a_gpu_path_tracing_final\build\gpu_path_tracing_from_scratch\vec3.h(127): warning C4805: '==': unsafe mix of type 'bool' and type 'float' in operation
+     Creating library E:\4_a_a_GPU_Path_Tracing\a_GPU_Path_Tracing_Final\build\GPU_Path_Tracing\x64\Release\GPU_Path_Tracing_From_Scratch.lib and object E:\4_a_a_GPU_Path_Tracing\a_GPU_Path_Tracing_Final\build\GPU_Path_Tracing\x64\Release\GPU_Path_Tracing_From_Scratch.exp
+  Generating code
+  All 50 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GPU_Path_Tracing_From_Scratch.vcxproj -> E:\4_a_a_GPU_Path_Tracing\a_GPU_Path_Tracing_Final\build\GPU_Path_Tracing\x64\Release\GPU_Path_Tracing_From_Scratch.exe
+  GPU_Path_Tracing_From_Scratch.vcxproj -> E:\4_a_a_GPU_Path_Tracing\a_GPU_Path_Tracing_Final\build\GPU_Path_Tracing\x64\Release\GPU_Path_Tracing_From_Scratch.pdb (Full PDB)
