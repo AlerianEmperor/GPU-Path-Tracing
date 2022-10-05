@@ -2,8 +2,7 @@
 
 complete at 11:45 1-10-2022 october
 
-Rea![SpaceTrooper](https://user-images.githubusercontent.com/93391908/194068767-21c79c3a-a761-4e0f-88da-2416fae7dad6.png)
-l Time Path Tracing in Cuda OpenGL
-
+Real Time Path Tracing in Cuda OpenGL
+![SpaceTrooper](https://user-images.githubusercontent.com/93391908/194069016-d3aa3d6a-3052-4978-a5a1-583bfbe6b1ae.png)
 ![GPU Path Tracing](https://user-images.githubusercontent.com/93391908/193448901-c926bd0e-a417-4127-8df1-39826331a41f.png)
 
